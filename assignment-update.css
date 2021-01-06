@@ -4,15 +4,14 @@ body {
 
 .top {
     background-color: dimgrey;
-    height: 50px;
+    height: 55px;
 }
 
 .one {
-    height: 60px;
-    margin-top: 20px;
-    margin-right: 40px;
-    width: 100%;
-
+    height: 70px;
+    margin-top: 30px;
+    margin-right: 20px;
+    text-align: right;
 }
 
 .link-one {
@@ -21,11 +20,11 @@ body {
     font-size: 18px;
     background-image: linear-gradient(45deg, chocolate, cyan);
     border-radius: 4px;
-    margin: 5px 10px;
-    padding: 7px 19px;
-    padding-right: 10px;
-    text-align: center;
+    margin: 5px 12px;
+    padding: 7px 20px;
+    padding-right: 16px;
     float: right;
+
 }
 
 .topper {
@@ -191,7 +190,7 @@ body {
 .contact-one {
     width: 60%;
     float: center;
-    height: 250px;
+    height: 180px;
     background-image: linear-gradient(45deg, whitesmoke, blueviolet, cyan);
     margin-left: 17.5%;
     border-radius: 30px;
@@ -211,9 +210,13 @@ body {
 }
 
 .contact-word {
-    font-size: 40px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(158, 122, 122), rgb(111, 122, 122));
+    border-radius: 6px;
+    padding: 15px 24px;
+    font-size: 22px;
     font-weight: 700;
-    color: rgb(32, 88, 88);
+    color: rgb(29, 43, 43);
     margin-right: 80px;
     margin-bottom: 390px;
     float: right;
@@ -225,4 +228,117 @@ body {
     height: 80px;
     width: 80px;
     float: left;
+}
+
+.last-add {
+    width: 100%;
+    text-align: center;
+}
+
+.last-add h1 {
+    color: lightsalmon;
+    margin-top: 50px;
+    margin-left: 33%;
+    padding: 10px 15px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center
+}
+
+
+.testimonial h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 7%;
+    padding-top: 60px;
+}
+
+.testimonial {
+    background-color: #f5f5f5d7;
+    margin-top: 50px;
+    height: 760px;
+
+}
+
+.testimonial1 {
+    height: 530PX;
+    Width: 18%;
+    margin-left: 9%;
+    padding: 15px 25px;
+    box-shadow: 10px 10px 25px rgb(241, 220, 220);
+    border-radius: 8px;
+    float: left;
+}
+
+.testimonial1 p {
+    font-size: 19px;
+    color: rgb(243, 194, 102);
+    text-align: justify;
+    margin-bottom: 200px;
+}
+
+.testimonial1 img {
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 180px;
+    width: 90%;
+    box-shadow: 6px -4px 20px wheat;
+    border-radius: 8px;
+}
+
+.testimonial1 h3 {
+    font-size: 40px;
+    color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer-last {
+    float: center;
+    margin-left: 30%;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.footer-last a {
+    margin: 10px 20px;
+}
+
+.bottom-section {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.testimonial-last {
+    color: lightsalmon;
+    font-size: 24px;
+}
+
+.last-head {
+    font-size: 30px;
+    color: rgb(126, 87, 87);
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 180px;
+}
+
+.last-two {
+    text-align: center;
+    margin-left: 33%;
+    padding: 20px 30px;
+    margin-right: 20px;
+}
+
+.last-one {
+    margin: 10px 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    color: rgb(158, 122, 122);
+    font-size: 20px;
 }
